@@ -1,5 +1,10 @@
 * { box-sizing: border-box; }
 
+img {
+  max-width: 100%;
+}
+
+/* VIDEO STUFF */
 .video-background {
   background: #000;
   position: fixed;
