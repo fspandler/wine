@@ -2,7 +2,12 @@
 html {
   margin-top: 10px;
   background-color: #000;
-  background-image: url(https://i.redd.it/awtnihgqc7iy.jpg);
+  background: url(images/dj.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 /* NAVIGATION CSS */
@@ -153,6 +158,21 @@ li img {
 
 @media (max-width: 1100px) {
    .video-background {
+    display: none;
+  }
+}
+@media (max-width: 390px) {
+   #badge {
+    width: 25px;
+    transform: translate(0px, 5px);
+  }
+  nav {
+    transform: translate(0px, 40px);
+  }
+}
+
+@media (max-width: 311px) {
+   .badgeDisappear {
     display: none;
   }
 }
