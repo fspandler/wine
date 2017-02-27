@@ -1,8 +1,113 @@
 * { box-sizing: border-box; }
 
-img {
-  max-width: 100%;
+body {
+  background-color: #000;
 }
+/* NAVIGATION CSS */
+nav {
+  width:100%;
+  text-align:center;
+  margin-top: -50px;
+}
+
+nav ul {
+  width:100%;
+	margin:0;
+	padding:0;
+  color: white;
+}
+nav ul li {
+	display:inline;
+	padding:0;
+	margin:0;
+}
+
+li a {
+  text-decoration:none;
+  font-family: Arial;
+  color:white;
+}
+
+li:hover, li a:hover {
+  color:gray;
+}
+
+li img {
+  transform: translate(0px,50px);
+}
+/* NAVIGATION END */
+
+#logoBox {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  -webkit-transform: translateY(50%);
+  -o-transform: translateY(50%);
+  -moz-transform: translateY(50%);
+}
+
+#dadaLogo {
+  max-width: 100%;
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+#hotdog {
+  width: 100%;
+  text-align:center;
+}
+
+#hotdog a {
+  text-decoration:none;
+  color: white;
+  font-size: 2rem;
+  padding: 10px 50px 10px 50px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+}
+
+
+/* BUY Now Button animation */
+
+.fadeBox:hover {
+  -webkit-animation: KEYFRAME-NAME 2s;
+  -moz-animation:    KEYFRAME-NAME 2s;
+  -o-animation:      KEYFRAME-NAME 2s;
+  animation:         KEYFRAME-NAME 2s;
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  -o-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+}
+
+@-webkit-keyframes KEYFRAME-NAME {
+  0%   { color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);}
+  100%  { color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 1);}
+}
+@-moz-keyframes KEYFRAME-NAME {
+  0%   { color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);}
+  100%  { color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 1);}
+}
+@-o-keyframes KEYFRAME-NAME {
+  0%   { color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);}
+  100%  { color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 1);}
+}
+@keyframes KEYFRAME-NAME {
+  0%   { color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);}
+  100%  { color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 1);}
+}
+
 
 /* VIDEO STUFF */
 .video-background {
@@ -26,12 +131,6 @@ img {
 	top: 0;
 	color: #fff;
 }
-
-.vid-info { position: absolute; top: 90; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
-
-.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
-
-.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
 
 @media (min-aspect-ratio: 16/9) {
 
