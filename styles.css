@@ -1,10 +1,10 @@
 * { box-sizing: border-box; }
 html {
   margin-top: 10px;
-}
-body {
   background-color: #000;
+  background-image: url(https://i.redd.it/awtnihgqc7iy.jpg);
 }
+
 /* NAVIGATION CSS */
 nav {
   width:100%;
