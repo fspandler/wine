@@ -31,13 +31,17 @@ h2 {
   font-size: 2.5rem;
 }
 .doDis {
-  max-width: 450px;
   text-align: left;
   font-size: 1.5rem;
   font-family: arial, sans-serif;
 }
-.bio {
-  max-width: 600px;
+
+td {
+  width:33.3%;
+}
+
+h2 {
+  text-align: center;
 }
 /* NAVIGATION CSS */
 nav {
