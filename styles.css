@@ -8,9 +8,6 @@ html {
   -o-background-size: cover;
   background-size: cover;
   min-height: 100vh;
-
-}
-body {
   color: white;
 }
 #about {
@@ -21,27 +18,20 @@ h1 {
   font-family: arial, sans-serif;
   font-size: 4rem;
 }
-
 h2 {
   font-family: arial, sans-serif;
   font-size: 2.5rem;
 }
 /* ABOUT STUFF*/
-.white {
-  color:white;
-}
 .marginFix {
   margin-top: -150px;
 }
-
-
 /* NAVIGATION CSS */
 nav {
   width:100%;
   text-align: center;
   margin-top: -40px;
 }
-
 nav ul {
   width:100%;
 	margin:0;
@@ -52,16 +42,13 @@ nav ul li {
 	padding:0;
 	margin:0;
 }
-
 li a {
   text-decoration:none;
   font-family: Arial;
 }
-
 li:hover, li a:hover {
   text-shadow: 2px 2px 3px rgba(250, 250, 250, 1);
 }
-
 li img {
   width: 75px;
   transform: translate(0px,30px);
@@ -69,13 +56,11 @@ li img {
 .spacer {
   visibility: hidden;
 }
-
 @media (max-width: 513px) {
   .spacer {
     display: none;
   }
 }
-
 @media (max-width: 390px) {
    #badge {
     width: 25px;
@@ -85,15 +70,12 @@ li img {
     transform: translate(0px, 40px);
   }
 }
-
 @media (max-width: 311px) {
    .badgeDisappear {
     display: none;
   }
 }
-
 /* NAVIGATION END */
-
 #logoBox {
   text-align: center;
   position: relative;
@@ -104,19 +86,16 @@ li img {
   -o-transform: translateY(50%);
   -moz-transform: translateY(50%);
 }
-
 #dadaLogo {
   max-width: 100%;
   width: 700px;
   margin-bottom: 20px;
 }
-
 #hotdog {
   width: 100%;
   text-align:center;
   margin-top:25px;
 }
-
 #hotdog a {
   text-decoration:none;
   color: white;
@@ -126,10 +105,7 @@ li img {
   border-width: 3px;
   border-color: white;
 }
-
-
 /* BUY Now Button animation */
-
 .fadeBox:hover {
   -webkit-animation: KEYFRAME-NAME 2s;
   -moz-animation:    KEYFRAME-NAME 2s;
@@ -140,7 +116,6 @@ li img {
   -o-animation-fill-mode:forwards;
   animation-fill-mode:forwards;
 }
-
 @-webkit-keyframes KEYFRAME-NAME {
   0%   { color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0);}
@@ -165,8 +140,6 @@ li img {
   100%  { color: rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 1);}
 }
-
-
 /* VIDEO STUFF */
 .video-background {
   background: #000;
@@ -174,7 +147,6 @@ li img {
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
 }
-
 .video-foreground,
 .video-background iframe {
   position: absolute;
@@ -184,14 +156,11 @@ li img {
   height: 100%;
   pointer-events: none;
 }
-
 #vidtop-content {
 	top: 0;
 	color: #fff;
 }
-
 @media (min-aspect-ratio: 16/9) {
-
   .video-foreground { height: 300%; top: -100%; }
 }
 @media (max-aspect-ratio: 16/9) {
@@ -204,7 +173,6 @@ li img {
 @media all and (max-width: 500px) {
 .vid-info .acronym { display: none; }
 }
-
 @media (max-width: 1100px) {
    .video-background {
     display: none;
