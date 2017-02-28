@@ -11,6 +11,14 @@ html {
 
 }
 
+#about {
+  background: url(images/about.jpg) no-repeat center center fixed;
+}
+h1 {
+  font-family: arial, sans-serif;
+  color: white;
+  font-size: 4rem;
+}
 /* NAVIGATION CSS */
 nav {
   width:100%;
