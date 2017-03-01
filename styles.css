@@ -46,7 +46,7 @@ body {
   min-width: 100%;
 }
 #about {
-  background: url(images/stardust.png) repeat center center fixed;
+  background: url(#) repeat center center fixed;
   background-color: #000;
 }
 h1 {
