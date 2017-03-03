@@ -1,7 +1,21 @@
-#center {
-  margin: 0 auto;
+.hundred {
+  display:inline-block;
+  vertical-align: top;
+  background-color: rgba(255, 255, 255, 0.1);
 }
-
+.pFix {
+  max-width: 500px;
+  text-align: left;
+}
+#holderthing {
+  width: 100%;
+  text-align:center;
+}
+.aboutTitles {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+}
 /*footer*/
 footer p {
   text-align: center;
