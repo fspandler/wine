@@ -1,3 +1,10 @@
+#dadaLogo {
+  margin-top:-10vh;
+  max-width: 100%;
+  width: 1300px;
+  margin-bottom: 20px;
+}
+
 .hundred {
   display:inline-block;
   vertical-align: top;
@@ -133,6 +140,9 @@ li img {
   .spacer {
     display: none;
   }
+  #dadaLogo {
+    margin-top: auto;
+  }
 }
 @media (max-width: 390px) {
    #badge {
@@ -142,6 +152,7 @@ li img {
   nav {
     transform: translate(0px, 40px);
   }
+
 }
 @media (max-width: 311px) {
    .badgeDisappear {
@@ -159,11 +170,7 @@ li img {
   -o-transform: translateY(50%);
   -moz-transform: translateY(50%);
 }
-#dadaLogo {
-  max-width: 100%;
-  width: 700px;
-  margin-bottom: 20px;
-}
+
 #hotdog {
   width: 100%;
   text-align:center;
