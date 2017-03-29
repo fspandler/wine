@@ -1,3 +1,44 @@
+#formBox {
+  margin: 0 auto;
+  max-width: 800px;
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+#epic {
+  text-align: center;
+}
+.footLeft {
+  text-align: left;
+}
+
+.footStyle{
+  text-decoration: none;
+  color: white;
+  text-align: left;
+}
+.footStyle:hover {
+  text-decoration: underline;
+}
+.inlineBlock {
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.footLogo {
+  max-width: 500px;
+}
+
+.icon {
+  width: 40px;
+}
+.icon:hover {
+  opacity: 0.5;
+}
 #life {
   text-align: center;
   margin-top: 40px;
@@ -8,7 +49,7 @@
 }
 
 #vs-winelist {
-  max-width: 400px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -75,6 +116,7 @@ html {
 
 body {
   margin: 0;
+  font-family: Arial;
 }
 #main {
   min-width: 100%;
@@ -193,6 +235,9 @@ li img {
   border-color: white;
 }
 /* BUY Now Button animation */
+.fadeBox {
+  font-family: serif;
+}
 .fadeBox:hover {
   -webkit-animation: KEYFRAME-NAME 2s;
   -moz-animation:    KEYFRAME-NAME 2s;
