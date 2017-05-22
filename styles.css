@@ -1,3 +1,23 @@
+#plzCenter {
+  text-align: left;
+}
+
+#faqbox {
+  margin: 0 auto;
+  max-width: 1000px;
+  font-size: 1.3rem;
+}
+
+.nohov:hover {
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+#faq {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom:  40px;
+}
+
 #formBox {
   margin: 0 auto;
   max-width: 800px;
