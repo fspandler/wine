@@ -224,6 +224,9 @@ li img {
   visibility: hidden;
 }
 @media (max-width: 513px) {
+  #vs-winelist {
+    padding-top: 30%;
+  }
   .spacer {
     display: none;
   }
