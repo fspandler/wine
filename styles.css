@@ -1,3 +1,7 @@
+nav {
+  visibility: hidden;
+}
+
 footer {
   margin-top: 20%;
 }
