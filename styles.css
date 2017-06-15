@@ -1,3 +1,8 @@
+@font-face {
+    font-family: DADAfont;
+    src: url(DADAfont.ttf);
+}
+
 nav {
   visibility: hidden;
 }
@@ -357,4 +362,12 @@ li img {
    .video-background {
     display: none;
   }
+  #home {
+  background: url(images/field.jpg) no-repeat top top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
 }
