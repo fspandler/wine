@@ -1,3 +1,11 @@
+.frank {
+  position: absolute;
+  top: 700px;
+  bottom: auto;
+  right: 360px;
+  left: auto;
+}
+
 @font-face {
     font-family: DADAfont;
     src: url(DADAfont.ttf);
