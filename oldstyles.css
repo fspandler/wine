@@ -1,0 +1,376 @@
+.frank {
+  position: absolute;
+  top: 700px;
+  bottom: auto;
+  right: 360px;
+  left: auto;
+}
+
+
+
+nav {
+  visibility: hidden;
+}
+
+footer {
+  margin-top: 20%;
+}
+
+#form1 {
+  margin-top: -100px;
+  color: white;
+}
+
+#header {
+  color: white !important;
+}
+
+.fullPage {
+  min-height: 90vh;
+}
+#plzCenter {
+  text-align: left;
+}
+
+#faqbox {
+  margin: 0 auto;
+  max-width: 1000px;
+  font-size: 1.3rem;
+}
+
+.nohov:hover {
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+#faq {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom:  40px;
+}
+
+#formBox {
+  margin: 0 auto;
+  max-width: 800px;
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+#epic {
+  text-align: center;
+  margin-top: -10%;
+}
+.footLeft {
+  text-align: left;
+}
+
+.footStyle{
+  text-decoration: none;
+  color: white;
+  text-align: left;
+}
+.footStyle:hover {
+  text-decoration: underline;
+}
+.inlineBlock {
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.footLogo {
+  max-width: 500px;
+}
+
+.icon {
+  width: 40px;
+}
+.icon:hover {
+  opacity: 0.5;
+}
+#life {
+  text-align: center;
+  margin-top: 40px;
+}
+#store {
+  min-width: 100%;
+  text-align: center;
+}
+
+#vs-winelist {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+#dadaLogo {
+  margin-top:-10vh;
+  max-width: 100%;
+  width: 1300px;
+  margin-bottom: 20px;
+}
+
+.hundred {
+  display:inline-block;
+  vertical-align: top;
+}
+.pFix {
+  max-width: 500px;
+  text-align: left;
+}
+#holderthing {
+  width: 100%;
+  text-align:center;
+}
+.aboutTitles {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+/*footer*/
+footer p {
+  text-align: center;
+}
+footer p img {
+  width: 24px;
+}
+#footfix {
+  width: 1vw;
+  height: 100vh;
+  margin-top: -360px;
+}
+.indexThree {
+  z-index: 3;
+}
+/*end footer*/
+.FScenter {
+  margin: 0 auto;
+  display: inline-block;
+}
+.piano {
+  color:white;
+  background-color: black;
+}
+* { box-sizing: border-box; }
+html {
+  margin-top: 10px;
+  background-color: #000;
+  background: url(images/field.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+#main {
+  min-width: 100%;
+}
+#about {
+  background: url(#) repeat center center fixed;
+  background-color: #000;
+}
+h1 {
+  font-family: arial, sans-serif;
+  font-size: 2rem;
+}
+h2 {
+  font-family: arial, sans-serif;
+  font-size: 2.5rem;
+}
+.doDis {
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: arial, sans-serif;
+}
+
+
+.aboutImage {
+  width: 100%;
+  max-width: 50vw;
+}
+
+.FSbottle {
+  width: 100%;
+  max-width: 100vw;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: arial, sans-serif;
+}
+/* NAVIGATION CSS */
+nav {
+  text-align: center;
+  margin-top: -40px;
+  margin-left: 3.2%;
+  margin-bottom: 4%;
+}
+nav ul {
+  width:100%;
+	margin:0;
+	padding:0;
+}
+nav ul li {
+	display:inline;
+	padding:0;
+	margin:0;
+}
+li a {
+  text-decoration:none;
+  font-family: Arial;
+  color:white;
+}
+li:hover, li a:hover {
+  text-shadow: 2px 2px 3px rgba(250, 250, 250, 1);
+}
+li img {
+  width: 75px;
+  transform: translate(0px,30px);
+}
+.spacer {
+  visibility: hidden;
+}
+@media (max-width: 513px) {
+  #vs-winelist {
+    padding-top: 30%;
+  }
+  .spacer {
+    display: none;
+  }
+  #dadaLogo {
+    margin-top: auto;
+  }
+}
+@media (max-width: 390px) {
+  .catz{
+    margin-top: 30px;
+  }
+   #badge {
+    width: 25px;
+    transform: translate(0px, 5px);
+  }
+  nav {
+    transform: translate(0px, 40px);
+  }
+
+}
+@media (max-width: 311px) {
+   .badgeDisappear {
+    display: none;
+  }
+}
+/* NAVIGATION END */
+#logoBox {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  -webkit-transform: translateY(50%);
+  -o-transform: translateY(50%);
+  -moz-transform: translateY(50%);
+}
+
+#hotdog {
+  width: 100%;
+  text-align:center;
+  margin-top:25px;
+}
+#hotdog a {
+  text-decoration:none;
+  color: white;
+  font-size: 2rem;
+  padding: 10px 50px 10px 50px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+}
+/* BUY Now Button animation */
+.fadeBox {
+  font-family: serif;
+}
+.fadeBox:hover {
+  -webkit-animation: KEYFRAME-NAME 2s;
+  -moz-animation:    KEYFRAME-NAME 2s;
+  -o-animation:      KEYFRAME-NAME 2s;
+  animation:         KEYFRAME-NAME 2s;
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  -o-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+}
+@-webkit-keyframes KEYFRAME-NAME {
+  0%   { color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);}
+  100%  { color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 1);}
+}
+@-moz-keyframes KEYFRAME-NAME {
+  0%   { color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);}
+  100%  { color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 1);}
+}
+@-o-keyframes KEYFRAME-NAME {
+  0%   { color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);}
+  100%  { color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 1);}
+}
+@keyframes KEYFRAME-NAME {
+  0%   { color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);}
+  100%  { color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 1);}
+}
+/* VIDEO STUFF */
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+#vidtop-content {
+	top: 0;
+	color: #fff;
+}
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
+@media (max-width: 1100px) {
+   .video-background {
+    display: none;
+  }}
+  #home {
+  background: url(images/field.jpg) no-repeat top top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
