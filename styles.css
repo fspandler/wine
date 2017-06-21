@@ -25,15 +25,15 @@ main {
 }
 
 h4 a {
-  color:#c6b66b;
+  color:#a28145;
   text-decoration: none;
-  border: 2px solid #c6b66b;
+  border: 2px solid #a28145;
 }
 
 h4 a:focus, h4 a:hover{
-  color:#c6b66b;
+  color:#a28145;
   text-decoration: none;
-  border: 2px solid #c6b66b;
+  border: 2px solid #a28145;
 }
 .dada {
   font-family: DADAfont, Arial, sans-serif;
@@ -143,10 +143,10 @@ a.footDark:hover {
 /* FAQ Now Button animation */
 .faqFade {
 font-family: DADAfont, serif;
-border: 2px solid 198, 182, 107;
+border: 2px solid 162, 129, 69;
 white-space: pre-wrap;
 font-size: 40px;
-color: 198, 182, 107;
+color: 162, 129, 69;
 text-decoration: none;
 }
 .faqFade:focus {
@@ -162,28 +162,28 @@ animation-fill-mode:forwards;
 
 }
 @-webkit-keyframes KEYFRAME-NAME {
-  0%   { color: rgb(198, 182, 107);
+  0%   { color: rgb(162, 129, 69);
     background-color: rgba(255, 255, 255, 0);}
   100%  { color: rgb(255, 255, 255);
-    background-color: rgba(198, 182, 107, 1);}
+    background-color: rgba(162, 129, 69, 1);}
 }
 @-moz-keyframes KEYFRAME-NAME {
-  0%   { color: rgb(198, 182, 107);
+  0%   { color: rgb(162, 129, 69);
     background-color: rgba(255, 255, 255, 0);}
   100%  { color: rgb(255, 255, 255);
-    background-color: rgba(198, 182, 107, 1);}
+    background-color: rgba(162, 129, 69, 1);}
 }
 @-o-keyframes KEYFRAME-NAME {
-  0%   { color: rgb(198, 182, 107);
+  0%   { color: rgb(162, 129, 69);
     background-color: rgba(255, 255, 255, 0);}
   100%  { color: rgb(255, 255, 255);
-    background-color: rgba(198, 182, 107, 1);}
+    background-color: rgba(162, 129, 69, 1);}
 }
 @keyframes KEYFRAME-NAME {
-  0%   { color: rgb(198, 182, 107);
+  0%   { color: rgb(162, 129, 69);
     background-color: rgba(255, 255, 255, 0);}
   100%  { color: rgb(255, 255, 255);
-    background-color: rgba(198, 182, 107, 1);}
+    background-color: rgba(162, 129, 69, 1);}
 }
 /* VIDEO STUFF */
 .video-background {
@@ -223,7 +223,7 @@ animation-fill-mode:forwards;
     display: none;}
   }
 strong{
-  color:#c6b66b;
+  color:#a28145;
 }
   /*MEDIA QURIES*/
 
@@ -258,10 +258,10 @@ background-size: cover;
 @media screen and (max-width: 600px) {
   .faqFade {
   font-family: DADAfont, serif;
-  border: 2px solid 198, 182, 107;
+  border: 2px solid 162, 129, 69;
   white-space: pre-wrap;
   font-size: 25px;
-  color: 198, 182, 107;
+  color: 162, 129, 69;
   text-decoration: none;
   }
   .half {
@@ -281,10 +281,10 @@ background-size: cover;
 @media screen and (max-width: 400px) {
   .faqFade {
   font-family: DADAfont, serif;
-  border: 2px solid 198, 182, 107;
+  border: 2px solid 162, 129, 69;
   white-space: pre-wrap;
   font-size: 20px;
-  color: 198, 182, 107;
+  color: 162, 129, 69;
   text-decoration: none;
   }
   .half {
@@ -298,10 +298,10 @@ background-size: cover;
 @media screen and (max-width: 300px) {
   .faqFade {
   font-family: DADAfont, serif;
-  border: 2px solid 198, 182, 107;
+  border: 2px solid 162, 129, 69;
   white-space: pre-wrap;
   font-size: 16px;
-  color: 198, 182, 107;
+  color: 162, 129, 69;
   text-decoration: none;
   }
 }
