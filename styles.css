@@ -97,6 +97,20 @@ a.footDark:hover {
 #faqbox {
   color:black;
 }
+
+.buy {
+  font-family: DADAfont, serif;
+  border: 2px solid white;
+  white-space: pre-wrap;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.buy:hover {
+  text-decoration: none;
+  color:white;
+}
   /* BUY Now Button animation */
 .fadeBox {
   font-family: DADAfont, serif;
