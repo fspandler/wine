@@ -97,7 +97,9 @@ a.footDark:hover {
 #faqbox {
   color:black;
 }
-
+.op:hover {
+  opacity: .5;
+}
 .buy {
   font-family: DADAfont, serif;
   border: 2px solid white;
