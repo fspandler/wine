@@ -140,6 +140,24 @@ a.footDark:hover {
 .dark {
   color: black !important;
 }
+#abtBuy {
+  color:#a28145;
+   text-align:center;
+    margin: 0 auto;
+     border: solid 2px #a28145;
+      white-space:pre-line;
+       padding: 5px 5px 5px 5px;
+}
+#abtBuy:hover {
+  color:white;
+   text-align:center;
+    margin: 0 auto;
+     border: solid 2px #a28145;
+      white-space:pre-line;
+       padding: 5px 5px 5px 5px;
+       background-color: #a28145;
+       text-decoration: none;
+}
 /* FAQ Now Button animation */
 .faqFade {
 font-family: DADAfont, serif;
